@@ -1,0 +1,11 @@
+target/
+dist/
+/bin/
+.idea/
+.idea/**
+*.iml
+.settings/**
+*.lastupdate
+*.factorypath
+*.settings
+*.classpath

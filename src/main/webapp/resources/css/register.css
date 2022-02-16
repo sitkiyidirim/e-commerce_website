@@ -1,0 +1,227 @@
+/*body {*/
+/*    background: #fc5404;*/
+/*    background: linear-gradient(to bottom, #fc5404, #833007);*/
+/*}*/
+
+.register-total{
+
+    background: linear-gradient(#f51167, #282828);
+    padding: 3%;
+}
+
+
+
+.container-register {
+    background-color: #FCFCFC;
+    position: relative;
+    top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 0.35em;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.25);
+    text-align: center;
+    color: #1f7585;
+}
+
+.title {
+    position: relative;
+    width: 100%;
+    padding: 20px 0px;
+    border-top-left-radius: 0.22em;
+    border-top-right-radius: 0.22em;
+    font-size: 22px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+#title{
+    background-color: #204966 ;
+}
+.lock {
+    position: relative;
+    top: 2px;
+}
+.card {
+    padding-left: 2%;
+    padding-top: 5%;
+}
+
+.form-container {
+    width: 120% !important;
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button[type=submit] {
+    margin-top: 2%;
+    margin-right: 20%;
+    background-color: rgba(164, 72, 84, 0.59);
+    padding-right:30px;
+    padding-left:30px;
+    padding-bottom:10px;
+    padding-top:10px;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button[type=button] {
+    color: white;
+    margin-top: 2%;
+    margin-right: 17%;
+    padding-right:30px;
+    padding-left:30px;
+    padding-bottom:10px;
+    padding-top:10px;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button[type=submit]:hover {
+    background-color: rgb(164, 72, 84) !important;
+}
+
+label {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.input {
+    margin: auto;
+    border-radius: 4px;
+    background-color: #e8f0fe;
+}
+
+.input-password {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    border-radius: 4px;
+    background-color: #e8f0fe;
+}
+
+#togglePassword {
+    margin-right: 7%;
+    padding-left: 5%;
+    cursor: pointer;
+}
+
+input[type=text] {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    background-color: #e8f0fe;
+    border: 1px solid #e8f0fe;
+    padding: 6px 0px;
+    border-radius: 3px;
+}
+
+input[type=text]:focus {
+    background-color: rgba(84, 179, 231, 0.74);
+}
+
+input[type=email] {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    background-color: #e8f0fe;
+    border: 1px solid #e8f0fe;
+    padding: 6px 0px;
+    border-radius: 3px;
+}
+
+input[type=email]:focus {
+    background-color: rgba(84, 179, 231, 0.74);
+}
+
+input[type=password] {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    background-color: #e8f0fe;
+    border: 1px solid #e8f0fe;
+    padding: 6px 0px;
+    border-radius: 3px;
+}
+
+input[type=password]:focus {
+    background-color: rgba(84, 179, 231, 0.74);
+}
+
+select {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    background-color: #e8f0fe !important;
+    border: 1px solid #e8f0fe !important;
+    padding: 6px 0px;
+    border-radius: 3px;
+}
+
+select:focus {
+    background-color: rgba(84, 179, 231, 0.74) !important;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.errors {
+    color: red;
+    font-family: Papyrus;
+    text-align: center;
+    align-self: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 10%;
+    margin-right: 30%;
+}
+
+.hidden {
+    display: none;
+}
+
+.alert-information{
+    height: 25px;
+    padding: 5px;
+    font-size: 13px;
+    background-color: rgba(227, 83, 93, 0.44);
+    color: rgba(148, 0, 6, 0.82);
+    text-align: center;
+}
+
+.login-btn {
+    color: white;
+    margin-top: 2%;
+    margin-right: 17%;
+    padding-right:30px;
+    padding-left:30px;
+    padding-bottom:10px;
+    padding-top:10px;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:  #92c9ce !important;
+}
+.buttons {
+    margin-left: 15%;
+}
+.login-btn:hover{
+    background-color: #597a7e !important;
+    color: white !important;
+}
+
+.mataryal-color{
+    color: #92c9ce;
+}
+
+#floatingSelectGrid {
+    font-weight: bold;
+}

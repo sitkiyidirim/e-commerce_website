@@ -1,0 +1,84 @@
+.login-container{
+    margin-right: auto;
+    margin-left: auto;
+    background: linear-gradient(#f51167, #282828);
+}
+
+.btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+}
+
+.login-card {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.alert-information{
+    margin-top: 15px;
+    height: 40px;
+    padding: 5px;
+    background-color: rgba(227, 83, 93, 0.44);
+    color: rgba(148, 0, 6, 0.82);
+    text-align: center;
+}
+
+.input {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    border-radius: 4px;
+    background-color: #e8f0fe;
+}
+
+#togglePassword {
+    margin-right: 7%;
+    padding-left: 5%;
+    cursor: pointer;
+}
+
+button[type=button] {
+    color: white;
+    margin-top: 2%;
+    margin-right: 17%;
+    padding-right:30px;
+    padding-left:30px;
+    padding-bottom:10px;
+    padding-top:10px;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:  #92c9ce !important;
+}
+
+.redirect-btn:hover {
+    background-color: #597a7e !important;
+    color: white !important;
+}
+
+input[type=submit] {
+    color: white;
+    padding-right:30px;
+    padding-left:30px;
+    padding-bottom:10px;
+    padding-top:10px;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgba(164, 72, 84, 0.59) !important;
+}
+
+input[type=submit]:hover {
+    color: white;
+    background-color: rgb(164, 72, 84) !important;
+}
+
+.hidden {
+    display: none;
+}

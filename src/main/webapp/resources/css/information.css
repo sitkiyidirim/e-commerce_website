@@ -1,0 +1,294 @@
+/*body {*/
+/*    background: #fc5404;*/
+/*    background: linear-gradient(to bottom, #fc5404, #833007);*/
+/*}*/
+
+.container-total{
+    background: linear-gradient(#f51167, #282828);
+    padding: 2%;
+   color: #92c9ce;
+}
+
+.container-update {
+    background-color: #204966;
+    position: relative;
+    top: 20%;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    width: 50%;
+    border-radius: 0.35em;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.title {
+    position: relative;
+    width: 100%;
+    padding: 20px 0px;
+    border-top-left-radius: 0.22em;
+    border-top-right-radius: 0.22em;
+    font-size: 22px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.lock {
+    position: relative;
+    top: 4px;
+    padding-right: 5%;
+    margin-left: 5%;
+}
+
+.back {
+    position: relative;
+    top: 2px;
+    padding-right: 85%;
+}
+.card {
+    padding-left: 2%;
+    padding-top: 5%;
+}
+
+.form-container {
+    width: 120% !important;
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #1f7585;
+}
+
+button[type=submit] {
+    margin-top: 2%;
+    margin-right: 17%;
+    background-color: rgba(164, 72, 84, 0.59);
+    padding-right:30px;
+    padding-left:30px;
+    padding-bottom:10px;
+    padding-top:10px;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button[type=submit]:hover {
+    background-color: rgb(164, 72, 84) !important;
+}
+
+label {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.input {
+    margin: auto;
+    border-radius: 4px;
+    background-color: #e8f0fe;
+}
+
+.input-password{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    border-radius: 4px;
+    background-color: #e8f0fe;
+}
+
+#togglePassword {
+    margin-right: 7%;
+    padding-left: 5%;
+    cursor: pointer;
+}
+#toggleRepassword {
+    margin-right: 7%;
+    padding-left: 5%;
+    cursor: pointer;
+}
+
+input[type=text] {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    background-color: #e8f0fe;
+    border: 1px solid #e8f0fe;
+    padding: 6px 0px;
+    border-radius: 3px;
+}
+
+input[type=text]:focus {
+    background-color: rgba(84, 179, 231, 0.74);
+}
+
+input[type=email] {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    background-color: #e8f0fe;
+    border: 1px solid #e8f0fe;
+    padding: 6px 0px;
+    border-radius: 3px;
+}
+
+input[type=email]:focus {
+    background-color: rgba(84, 179, 231, 0.74);
+}
+
+input[type=password] {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    background-color: #e8f0fe;
+    border: 1px solid #e8f0fe;
+    padding: 6px 0px;
+    border-radius: 3px;
+}
+
+input[type=password]:focus {
+    background-color: rgba(84, 179, 231, 0.74);
+}
+
+select {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    background-color: #e8f0fe !important;
+    border: 1px solid #e8f0fe !important;
+    padding: 6px 0px;
+    border-radius: 3px;
+}
+
+select:focus {
+    background-color: rgba(84, 179, 231, 0.74) !important;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.errors {
+    color: red;
+    font-family: Papyrus;
+    text-align: center;
+    align-self: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 10%;
+    margin-right: 30%;
+}
+
+.hidden {
+    display: none;
+}
+.bgAndtextcolor{
+    background-color: #4f71a4;
+    color: #ffffff;
+}
+
+.alert-information{
+    height: 25px;
+    padding: 5px;
+    font-size: 13px;
+    background-color: rgba(227, 83, 93, 0.44);
+    color: rgba(148, 0, 6, 0.82);
+    text-align: center;
+}
+
+#floatingSelectGrid {
+    font-weight: bold;
+}
+
+.adressesStyle{
+    border: black;
+    border-width: 3px;
+    border-style: double;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 10px;
+
+    background-color: rgba(31, 100, 150, 0.62);
+}
+.adressesStyle:hover{
+    background-color: rgba(8, 51, 80, 0.77);
+}
+.adressesStyleTitle{
+    /*border-left: black 2px solid;*/
+    /*border-right: black 2px solid;*/
+    width: 15%;
+    background-color: rgba(8, 51, 80, 0.2);
+    border-radius: 5px;
+}
+
+.adressesStyleBody{
+    border-top: black 2px solid;
+    padding: 5px;
+    text-align: left;
+}
+.adressesStyleButtonEdit{
+    margin-left: 45%;
+    margin-bottom: 5px !important;
+    padding-bottom: 2px !important;
+    padding-top: 2px !important;
+    padding-right: 25px !important;
+    padding-left: 25px !important;
+    background-color: #5ec7c6 !important;
+    border-radius: 15px !important;
+}
+.adressesStyleButtonEdit:hover{
+    background-color: #9ad995 !important;
+}
+.adressesStyleButtonDelete{
+    margin-left: 2%;
+    margin-bottom: 5px !important;
+    padding-bottom: 2px !important;
+    padding-top: 2px !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    background-color: #bd8282 !important;
+    border-radius: 15px !important;
+}
+.adressesStyleButtonDelete:hover{
+    background-color: #c03d3d !important;
+}
+
+#adreslerimbuttonu{
+    margin-left: 65%;
+    margin-right: 8%;
+    background-color: #4f71a4;
+    color: white;
+
+    padding: 7px;
+    border-radius: 8px;
+}
+#adreslerimbuttonu:hover{
+    background-color: #3574d5;
+}
+
+#addressAddButtonu{
+    margin-left: 65%;
+    margin-right: 8%;
+    background-color: #4f71a4;
+    color: white;
+
+    padding: 7px;
+    border-radius: 8px;
+}
+#addressAddButtonu:hover{
+    background-color: #3574d5;
+}
+
+#Adreslerimburada{
+    color: black;
+    margin-right: 2%;
+}
+
+.singleAdreesBackgroundColor{
+    background-color: rgba(11, 84, 141, 0.88) !important;
+}
+.singleAdreesBackgroundColorNormal{
+    background-color: rgba(31, 100, 150, 0.62) !important;
+}
+
