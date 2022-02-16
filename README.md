@@ -21,7 +21,9 @@ add & show & update address : ![image](https://user-images.githubusercontent.com
                               ![image](https://user-images.githubusercontent.com/75735880/154310495-3575b680-07f9-4810-8acd-cb2bc0985cd8.png)
                               ![image](https://user-images.githubusercontent.com/75735880/154310625-66dc6879-fbfd-4a03-92e2-4e0a22556905.png)
 
-categories (all categories have similar pic) : ![image](https://user-images.githubusercontent.com/75735880/154310829-5e5eec70-6eca-4b5e-927e-9435e682f18e.png)
+categories (all categories have similar pic) : <br>
+![image](https://user-images.githubusercontent.com/75735880/154310829-5e5eec70-6eca-4b5e-927e-9435e682f18e.png)
 
-card details : ![image](https://user-images.githubusercontent.com/75735880/154311118-5774e8a2-cf8c-422f-a0de-3a516af6cb69.png)
+card details : <br>
+![image](https://user-images.githubusercontent.com/75735880/154311118-5774e8a2-cf8c-422f-a0de-3a516af6cb69.png)
 
